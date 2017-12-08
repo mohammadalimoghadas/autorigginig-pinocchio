@@ -1,5 +1,5 @@
 # Makefile for DemoUI
-CC = g++
+CC = g++-7
 CCFLAGS = -c -Wall -O3 -I../Pinocchio/
 LIBS = -lm -L../Pinocchio/ -lpinocchio -lfltk -lfltk_gl
 
